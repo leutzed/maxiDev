@@ -4,7 +4,7 @@ import { Input } from "../../components/Input";
 
 import * as Styles from './styles';
 
-export function Login() {
+export default function Login() {
   return (
     <>
       <Header />
