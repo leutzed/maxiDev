@@ -6,8 +6,8 @@ import Home from "../pages/Home";
 export default function AppRoutes() {
   return (
     <Routes>
-      <Route path="/login" element={ <Login /> } /> 
       <Route path="/home" element={ <Home /> } /> 
+      <Route path="/" element={ <Login /> } /> 
     </Routes>
   )
 } 
